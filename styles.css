@@ -78,18 +78,17 @@ body {
 
 @media (max-width: 768px) {
     body {
-        padding: 40px 20px;
+        padding: 35px 25px;
         font-size: 18px;
     }
 
     .main-content {
-        margin-top: 60px;
         margin-bottom: 120px;
     }
 
     .intro-text {
-        font-size: 20px;
-        margin-bottom: 60px;
+        font-size: 24px;
+        margin-bottom: 40px;
     }
 
     .signature {
@@ -98,13 +97,13 @@ body {
 
     .footer-text {
         bottom: 40px;
-        left: 20px;
+        left: 25px;
         width: calc(100% - 40px);
         font-size: 18px;
     }
 
     .wave-decoration {
-        bottom: 40px;
+        bottom: 30px;
         right: -20px;
         width: 150px;
         height: 30px;
