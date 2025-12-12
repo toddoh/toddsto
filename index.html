@@ -6,29 +6,37 @@
     <title>Todd Stonefield-Oh</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <main class="main-content">
-            <p class="intro-text">
-                I'm a <strong>forever idealist</strong> and an <strong>explorer</strong>. I use engineering as a medium to understand the world, challenge assumptions, and shape the future. I build to move society <strong>forward</strong>, to make <strong>communities</strong> stronger, to keep <strong>humanity</strong> at the center, and to create a <strong>future</strong> worth living in. I find perspective in <strong>nature</strong>, where the scale of mountains and trails remind me what truly matters. That's the compass I follow.
-            </p>
+        <header class="header">
+            <div class="name">Todd Stonefield-Oh</div>
+            <nav class="nav">
+                <a href="mailto:zerowaverlyst@gmail.com">Contact</a>
+            </nav>
+        </header>
 
-            <div class="signature">
-                <div class="signature-line">From Northeast Coast with love,</div>
-                <div class="signature-line">Todd Stonefield-Oh</div>
-            </div>
+        <main class="main">
+            <section class="intro">
+                <p>I'm a forever idealist and an explorer. I use engineering as a medium to understand the world, challenge assumptions, and shape the future. I build to move society forward and to create a future worth living in.</p>
+                <p>I find perspective in nature, where the scale of mountains and trails remind me what truly matters. That's the compass I follow.</p>
+                <p><strong class="time-stamp" id="current-time"></strong> <span class="status-text">— I'm on a mission to reimagine a key infrastructure that hasn't changed in decades. Follow our adventure at [redacted].</span></p>
+            </section>
+
+            <section class="location">
+                <p>From the Northeast Coast,</p>
+                <p>Todd</p>
+            </section>
         </main>
-    </div>
 
-    <div class="footer-text">
-        <a href="https://waverly.st">Find me at an exploratory cultural collective,<br>Waverly Street</a>
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="https://waverly.st" target="_blank" rel="noopener">Explore my socioeconomic collective<br>Waverly Street</a>
+            </div>
+        </footer>
     </div>
-
-    <div class="wave-decoration">
-        <img src="waverly.png" alt="Waverly decoration">
-    </div>
+    <script src="index.js"></script>
 </body>
 </html>
